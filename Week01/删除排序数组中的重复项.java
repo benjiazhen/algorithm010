@@ -3,6 +3,8 @@ class Solution {
         return method(nums);
     }
     //1.暴力解法,LinkedSet去重
+    //时间复杂度：O(n)
+	//空间复杂度：O(n)
     // public int method(int[] nums)
     // {
     //     Set<Integer> set = new LinkedSet();
@@ -19,6 +21,8 @@ class Solution {
     // }
 
     //2.升级维度
+	//时间复杂度：O(n)
+	//空间复杂度：O(1)
     public int method(int[] nums)
     {
         

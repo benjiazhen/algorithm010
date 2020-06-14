@@ -3,6 +3,8 @@ class Solution {
         method(nums,  k);
     }
     //1.暴力破解
+	//时间复杂度：O(n*k)
+	//空间复杂度：O(1)
     // public void method(int[] nums,int k)
     // {
     //     for(int i=0;i<k;i++)
@@ -16,7 +18,11 @@ class Solution {
     //         }
     //     }
     // }
+	
 //2.向右移动k+额外存储空间
+	
+//时间复杂度：O(n)
+//空间复杂度：O(n)
 //         public void method(int[] nums,int k)
 //     {
 //         int[] a = new int[nums.length];
@@ -28,7 +34,9 @@ class Solution {
 //         }
 //     }
 
-//三次翻转
+//3.三次翻转
+//时间复杂度：O(n)
+//空间复杂度：O(1)
         public void method(int[] nums,int k)
     {
 
