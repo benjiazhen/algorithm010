@@ -14,6 +14,23 @@
 
 双端指针，双端夹逼，快慢指针
 
+数组平移
+
+```
+nums[(i+k)%nums.length] = nums[i];
+```
+
+数组翻转
+
+```
+while(start < end)
+{
+	int temp = nums[end];
+	int nums[end] = nums[start];
+	nums[start] = temp;
+}
+```
+
 **Queue源码分析：**
 
 queue作为FIFO的数据结构，继承自Collection接口，实现类有ArrayBlockingQueue，DelayQueue，LinkedList,PriorityQueue，具有以下接口
