@@ -31,6 +31,11 @@ while(start < end)
 }
 ```
 
+递归二元素：
+
+1.终止条件
+2.递归函数
+
 **Queue源码分析：**
 
 queue作为FIFO的数据结构，继承自Collection接口，实现类有ArrayBlockingQueue，DelayQueue，LinkedList,PriorityQueue，具有以下接口
