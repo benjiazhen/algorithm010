@@ -282,7 +282,11 @@ private int findSmallestValue(Node root) {
 
 #### 1. 往堆中插入一个元素
 
-插入元素之后，我们需要继续满足堆的两个特性 让其重新满足堆的特性的这个过程，我们称之为 **堆化(heapify)**。
+插入元素之后，我们需要继续满足堆的两个特性 让其重新满足堆的特性的这个过程，我们称之为 **堆化(heapify)**
+
+。![image-20200711101235390](C:\Users\Administrator.SKY-20160814UDH\AppData\Roaming\Typora\typora-user-images\image-20200711101235390.png)
+
+![image-20200711101618469](C:\Users\Administrator.SKY-20160814UDH\AppData\Roaming\Typora\typora-user-images\image-20200711101618469.png)
 
 #### 2. 删除堆顶元素 (取最大值/最小值)
 
